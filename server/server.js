@@ -13,5 +13,5 @@ app.use(express.static(publicPath));
 
 
 app.listen(port, () => {
-    console.log('app in running on port 300');
+    console.log('app in running on port ' + port);
 });
